@@ -1,0 +1,86 @@
+   .category-row{
+    margin-top: 30px;
+     .category-card{
+     h3{
+        color: var(--Black, #191919);
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 48px; 
+     }
+   }
+   .category-card-wrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    .product-card{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        flex-direction: column;
+        gap: 1rem;
+        background-color: #fff;
+        width: calc(25% - 30px);
+        min-width: 250px;
+        flex-grow: .5;
+        border-radius: 12px;
+        border: 1.8px solid #F9F9F9;
+        transition: .2s linear;
+        // cursor: pointer;
+        .products-card-content{
+            width: 100%;
+            padding: 20px;
+        }
+        h3{
+            color: var(--Black, #191919);
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 24px; 
+        }
+        p{
+            color: var(--Black, #191919);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px; 
+        }
+        .product-filter{
+            padding: 7px 18px;
+     position: absolute;
+     top: 4px;
+     left:  7px;
+     background-color: #E23535;
+     color: #FFF;
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+        }
+        .product-card-footer{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            button{
+                color: var(--White, #FFF);
+                text-align: center;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 22px; 
+                padding: 13px 32px;
+                border-radius: 6px;
+                border: none;
+                cursor: pointer;
+                background: var(--Primary, #FF7010);
+            }
+        }
+    }
+   }
+}

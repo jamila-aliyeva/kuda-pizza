@@ -1,0 +1,90 @@
+header{
+ padding: 20px;
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   background: #fff;
+//   z-index: 25;
+//   box-shadow: 0 0 5px #757676;
+
+
+.header-wrapper{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .header-aside{
+        display: flex;
+        align-items:center;
+        flex-wrap: wrap;
+        gap: 40px;
+        .header-location{
+            display: flex;
+            align-items: center;
+            select{
+                border: none;
+                option{
+                    color: var(--Black, #191919);
+                    text-align: right;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 18px; 
+                }
+            }
+        }
+        a{
+            color: var(--Black, #191919);
+            text-align: right;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 18px; 
+            span{
+                color: #191919;
+                text-align: right;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 18px; 
+            }
+        }
+    }
+    .header-bside{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 40px;
+        .contact{
+            display: flex;
+            gap: 8px;
+        }
+       a{
+            color: var(--Black, #191919);
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 18px; 
+        }
+    }
+}
+.header-counter{
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  .header-shop{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    max-width: 57px;
+    height: 27px;
+    background: var(--Primary, #FF7010);
+cursor:pointer;
+  }
+}
+}

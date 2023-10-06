@@ -1,0 +1,38 @@
+footer{
+    margin-bottom: 50px;
+   .footer-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    // gap: 100px;
+    flex-wrap: wrap;
+    .footer-contact{
+        flex-direction: column;
+        h4{
+            color: var(--Black, #191919);
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 28px; 
+        }
+        a{
+            margin-left: 10px;
+            margin-top: 9px;
+            color: var(--Black, #191919);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px; 
+        }
+        .footer-inner{
+            display: flex;
+        }
+        .social{
+            display: flex; 
+            justify-content: space-between;
+            margin-top: 8px;
+            
+        }
+    }
+   }
+}
